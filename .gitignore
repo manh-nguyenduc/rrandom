@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Node (scripts/update-ua.mjs needs no packages, but just in case)
+node_modules/
+npm-debug.log*
+
+# Python (local http.server / helpers)
+__pycache__/
+.venv/
+
+# Local env and logs
+.env
+.env.*
+*.log
+
+# Temporary test pages
+_*.html
